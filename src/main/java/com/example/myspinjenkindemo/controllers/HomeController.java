@@ -11,7 +11,7 @@ public class HomeController {
 
     @GetMapping
     public String home() {
-        return "<body style=\"background-color:black\">\n" +
+        return "<body style=\"background-color:green\">\n" +
                 "    <h2>Hello, spinnaker!</h2>\n" +
                 "</body>";
     }
